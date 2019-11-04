@@ -53,12 +53,12 @@
         <span v-else>{{page+1}}</span>
       </button>
       
-      <button class="pgBlock" v-on:click="page=Math.ceil(cases.length/perPage)-2">
+      <button class="pgBlock" v-on:click="page=totalPages-2">
         <span v-if="this.page==0 || this.page== totalPages-1">{{totalPages-1}}</span>
         <span v-else>...</span>
       </button>
       
-      <button class="pgBlock" v-on:click="page=Math.ceil(cases.length/perPage)-1">{{totalPages}}</button>
+      <button class="pgBlock" v-on:click="page=totalPages-1">{{totalPages}}</button>
       <div style="float:left">
         <button v-if="page!= totalPages-1" class="next" @click="page++">
           <i class="material-icons">navigate_next</i>
