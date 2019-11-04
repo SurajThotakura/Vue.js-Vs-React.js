@@ -1,0 +1,44 @@
+Vue.js observations 
+
+
+Before starting Vue.js I was familiar with HTML CSS and Vanilla JavaScript but never applied JavaScript extensively. 
+
+It took me one working day to learn, experiment and build a minimum confidence on Vue.js. 
+
+It took me one working day to build this pagination component. 
+
+ 
+
+Setting up Vue.js was very straightforward. 
+
+The documentation was very organised, everything was properly categorised. It was helpful to look for specific applications of Vue.js. 
+
+The order of these categories was according to, the complexity and significance of the application. It allowed simultaneous learning and applying the concepts. 
+
+One doesn't have to know about how everything is working in order to start building applications, as there were ways to implement vanilla JavaScript and HTML directly. 
+
+There was limited support from the community, the number of solutions for a problem and number of problems itself were less, but they were sufficiently informative. 
+
+Vue dev tools chrome extension was very helpful to debug and check how data was interpreted. 
+
+ 
+
+Resources used 
+
+https://cli.vuejs.org/ 
+
+https://vuejs.org/v2/guide/ 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+
+https://stackoverflow.com 
+
+https://www.taniarascia.com/getting-started-with-vue/ 
+
+https://www.w3schools.com/ 
+ 
+ 
+
+pagination app: zip file link 
+ 
+Code sandbox link: https://codesandbox.io/embed/pagination-ceyu2?fontsize=14 
