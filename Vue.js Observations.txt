@@ -36,9 +36,7 @@ https://stackoverflow.com
 https://www.taniarascia.com/getting-started-with-vue/ 
 
 https://www.w3schools.com/ 
- 
- 
 
-pagination app: zip file link 
+
  
 Code sandbox link: https://codesandbox.io/embed/pagination-ceyu2?fontsize=14 
