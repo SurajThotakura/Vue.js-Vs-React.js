@@ -25,7 +25,7 @@ const TableBody = props => {
                 <td>{cases.type}</td>
                 <td>{cases.doctor}</td>
                 <td>
-                    <i className={props.colorTag[cases.status]}></i>
+                    {<i className={props.colorTag[cases.status]}></i>}
                     {cases.status}
                 </td>
                 <td>{cases.lastUpdated}</td>
@@ -39,6 +39,12 @@ const TableBody = props => {
 class CasesTable extends Component {
     render() {
         const { casesData, tagColor } = this.props
+        let page = 0
+        const perPage = 10
+        let from = page * perPage;
+        let to = (page + 1) * perPage;
+        let pagination = [casesData.slice(from, to)];
+        console.log(pagination);
         return(
             <table>
                 <TableHeader />
