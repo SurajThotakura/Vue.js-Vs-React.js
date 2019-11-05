@@ -4,6 +4,7 @@ import Cases from './cases.json';
 
 
 class App extends Component {
+
   render(){
     const tagColor = {
       'Open':'yellowTag',
