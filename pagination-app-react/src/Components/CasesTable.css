@@ -26,38 +26,6 @@ table {
     font-weight: bold;
     background-color: #f2f2f2;
   }
-  .redTag {
-    margin: 5px 4px 4px 0px;
-    border-radius: 4px;
-    background-color: #FF5E5E;
-    width: 0.5rem;
-    height: 0.5rem;
-    float: left;
-  }
-  .greenTag {
-    margin: 5px 4px 4px 0px;
-    border-radius: 4px;
-    background-color: #2ECC71;
-    width: 0.5rem;
-    height: 0.5rem;
-    float: left;
-  }
-  .yellowTag {
-    margin: 5px 4px 4px 0px;
-    border-radius: 4px;
-    background-color: #F1C40F;
-    width: 0.5rem;
-    height: 0.5rem;
-    float: left;
-  }
-  .orangeTag{
-    margin: 5px 4px 4px 0px;
-    border-radius: 4px;
-    background-color: #F89E02;
-    width: 0.5rem;
-    height: 0.5rem;
-    float: left;
-  }
   .pagination {
     float: right;
     color: #4a4a4a;
