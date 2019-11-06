@@ -1,0 +1,45 @@
+React observations
+
+ 
+Before starting React I was familiar with HTML CSS and Vanilla JavaScript but never applied JavaScript extensively. However, I built the same component using Vue.js.
+
+
+Even though I didn't study all the concepts of react I was able to build a basic component by using following concepts 
+
+  * JSX 
+
+  * Components and Props 
+
+  * State and Lifecycle 
+
+  * Handling Events 
+
+  * Conditional Rendering 
+
+
+Setting up was not as straightforward as Vue.js as react didn’t offer a CLI. However, facebook provides an environment that comes pre-configured with everything you need to build a React app. 
+
+
+Even though the official documentation did not cover all the applications and special cases of the concepts there were plenty of Q/As on many forums which were helpful. 
+
+
+React dev tools chrome extension was very helpful to debug and check how data was interpreted. 
+
+
+Overall the learning curve is considerably steep compared to Vue.js but was not a hinderance to learn and apply the concepts quickly. 
+ 
+
+Resources used 
+
+https://reactjs.org/ 
+
+https://www.taniarascia.com/getting-started-with-react/ 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript 
+
+https://stackoverflow.com 
+
+https://egghead.io/courses/the-beginner-s-guide-to-react 
+ 
+
+Code sandbox link: https://codesandbox.io/embed/github/SurajThotakura/Vue.js-Vs-React.js/tree/master/pagination-app-react?fontsize=14 
