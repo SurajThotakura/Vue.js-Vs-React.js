@@ -69,7 +69,7 @@ class CasesTable extends Component {
 
 {/* previous button */}
                     <div style={{float:'left'}}>{pageNumber > 0
-                        ? <button className="previous" onClick={(e) => this.goTo(pageNumber-1)}>
+                        ? <button className="previous" onClick={this.goTo.bind(this, pageNumber-1)}>
                             <i className="material-icons">navigate_before</i>
                         </button>
                         : <button className="previous" disabled>
@@ -79,11 +79,11 @@ class CasesTable extends Component {
                     </div>
 
 {/* first page */}
-                    <button className="pgBlock" onClick={(e) => this.goTo(0)}>1</button>
+                    <button className="pgBlock" onClick={this.goTo.bind(this, 0)}>1</button>
 
 {/* second page */}
                     <div style={{float:'left'}}>{pageNumber === totalPages-1 || pageNumber === 0
-                        ? <button className="pgBlock" onClick={(e) => this.goTo(1)}>2</button>
+                        ? <button className="pgBlock" onClick={this.goTo.bind(this, 1)}>2</button>
                         : <div className="pgBlock">...</div>}
                     </div>
 
@@ -92,16 +92,16 @@ class CasesTable extends Component {
 
 {/* last but one page */}
                     <div style={{float:'left'}}>{pageNumber === totalPages-1 || pageNumber === 0
-                        ? <button className="pgBlock" onClick={(e) => this.goTo(totalPages-2)}>{totalPages-1}</button>
+                        ? <button className="pgBlock" onClick={this.goTo.bind(this,totalPages-2)}>{totalPages-1}</button>
                         : <div className="pgBlock">...</div>}
                     </div>
 
 {/* last page */}
-                    <button className="pgBlock" onClick={(e) => this.goTo(totalPages-1)}>{totalPages}</button>
+                    <button className="pgBlock" onClick={this.goTo.bind(this, totalPages-1)}>{totalPages}</button>
 
 {/* next button */}
                     <div style={{float:'left'}}>{pageNumber < totalPages-1
-                        ? <button className="next" onClick={(e) => this.goTo(pageNumber+1)}>
+                        ? <button className="next" onClick={this.goTo.bind(this, pageNumber+1)}>
                             <i className="material-icons">navigate_next</i>
                         </button>
                         : <button className="next" disabled>
